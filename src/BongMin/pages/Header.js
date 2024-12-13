@@ -26,7 +26,7 @@ const Header = () => {
         <div>
             
             <h3>
-                <img src = {plant} style={{ width : "20px"}} />
+                <img src = {plant}  alt="img" style={{ width : "20px"}} />
                 &nbsp; 오늘의 날짜를 적고, 날씨에 동그라미 하세요
             </h3>
             

@@ -5,7 +5,7 @@ const Problem = () => {
     return(
     <>
         <h3>
-        <img src = {plant} style={{ width : "20px"}} />
+        <img src = {plant} alt="img" style={{ width : "20px"}} />
         &nbsp; 층별 시설 기억하기
         </h3>
     <p>다음은 노인복지관의 층별 안내도입니다.</p>
