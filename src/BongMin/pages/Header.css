@@ -1,0 +1,75 @@
+/* 전체 컨테이너 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* 제목 스타일 */
+h3 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h3 img {
+    margin-right: 10px;
+}
+
+/* React-Select 드롭다운 스타일 */
+.css-1s2u09g-control {
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    font-size: 14px;
+}
+
+.css-1s2u09g-control:hover {
+    border-color: #aaa !important;
+}
+
+.css-26l3qy-menu {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 선택된 이미지에 동그라미 효과 */
+.circle {
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.circle img {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+/* 이미지 버튼 기본 스타일 */
+div img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle:hover img {
+    transform: scale(1.1);
+}
+
+/* 날짜 입력 필드와 드롭다운 정렬 */
+.flex-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.flex-container select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}

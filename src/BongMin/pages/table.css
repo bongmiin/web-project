@@ -1,0 +1,46 @@
+/* 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #90DC1E;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+/* 텍스트 강조 */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #333;
+}
+
+p u {
+    text-decoration: underline;
+}
+
+p b {
+    font-weight: bold;
+}

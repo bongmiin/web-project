@@ -1,0 +1,39 @@
+/* 전체 컨테이너 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* 제목 스타일 */
+h3 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 img {
+    margin-right: 10px;
+}
+
+/* 문단 스타일 */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+/* 강조된 텍스트 */
+p b {
+    color: #E57373; /* 붉은색 강조 */
+}
+
+/* 페이지 패딩 및 폰트 */
+.container {
+    padding: 100px;
+    font-family: Arial, sans-serif;
+}
